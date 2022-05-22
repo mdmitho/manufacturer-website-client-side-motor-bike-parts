@@ -37,19 +37,19 @@ const Banner = () => {
             <div class="carousel-item active relative float-left w-full">
               <img src={slider1} class="block w-full" alt="..." />
               <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">Best Motor Bike Parts Four You</h5>
+                <h5 class="text-xl text-primary">Best Motor Bike Parts Four You</h5>
               </div>
             </div>
             <div class="carousel-item relative float-left w-full">
               <img src={slider2} class="block w-full" alt="..." />
               <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">Best Motor Bike Parts Four You</h5>
+                <h5 class="text-xl text-primary">Best Motor Bike Parts Four You</h5>
               </div>
             </div>
             <div class="carousel-item relative float-left w-full">
               <img src={slider3} class="block w-full" alt="..." />
               <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">Best Motor Bike Parts Four You</h5>
+                <h5 class="text-xl text-primary">Best Motor Bike Parts Four You</h5>
               </div>
             </div>
           </div>

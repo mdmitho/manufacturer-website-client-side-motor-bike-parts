@@ -1,7 +1,7 @@
 
 import React from "react";
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 
 import logo from '../../../assets/icons/logo.png'
@@ -12,37 +12,19 @@ const Navbar = () => {
   const menuItem = (
     <>
       <li className="font-bold m-2">
-        <NavLink to="/">Home </NavLink>
+        <Link to="/">Home </Link>
       </li>
       <li className="font-bold m-2">
-        <NavLink to="/about">About</NavLink>
+        <Link to="/aboutUs">About Us</Link>
+      </li>
+
+      <li className="font-bold m-2">
+        <Link to="/contact">Contact</Link>
       </li>
       <li className="font-bold m-2">
-        <NavLink to="/appointment">Appointment</NavLink>
+        <Link to="/login">Login</Link>
       </li>
-      <li className="font-bold m-2">
-        <NavLink to="/review">Review</NavLink>
-      </li>
-      <li className="font-bold m-2">
-        <NavLink to="/contact">Contact</NavLink>
-      </li>
-      {/* {user && (
-        <li className="font-bold m-2">
-          <NavLink to="/dashboard">Dashboard</NavLink>
-        </li>
-      )}
-      {user ? (
-        <button onClick={logout} className="font-bold m-2">
-          Sign Out
-        </button>
-      ) : (
-        <NavLink to="/login" className="btn ">
-          login
-        </NavLink>
-      )} */}
     </>
-
-
   );
     return (
       <div>

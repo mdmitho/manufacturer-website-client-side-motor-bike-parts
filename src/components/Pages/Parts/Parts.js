@@ -17,7 +17,7 @@ if(isLoading){
 }
   return (
     <div className="">
-      <h1 className="text-2xl font-bold text-center my-16  text-secondary">Bike parts</h1>
+      <h1 className="text-2xl font-bold text-center my-16  text-primary">Bike parts</h1>
       <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 m-5 justify-center">
         {parts.map((part) => (
           <Part key={part._id} part={part}></Part>
