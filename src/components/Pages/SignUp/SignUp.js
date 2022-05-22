@@ -5,9 +5,10 @@ import {
   useUpdateProfile,
 } from "react-firebase-hooks/auth";
 import { useForm } from 'react-hook-form';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init'
 import Loading from '../../../Hooks/Loading'
+import logo from "../../../assets/login.png";
 const SignUp = () => {
 
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -36,7 +37,11 @@ const SignUp = () => {
         </p>
       );
     }
- 
+  
+    // if (token) {
+    //   console.log(user || gUser);
+    //   navigate("/appointment");
+    // }
     const onSubmit = async (data) => {
       console.log(data);
       await createUserWithEmailAndPassword(data.email, data.password);
@@ -47,7 +52,10 @@ const SignUp = () => {
 
 
     return (
-      <div className="flex h-screen justify-center items-center ">
+      <div className="flex xl:justify-center lg:justify-center justify-center items-center flex-wrap h-full g-3 my-32 ">
+        <div className="">
+          <img src={logo} alt="" />
+        </div>
         <div className="card w-96 bg-base-100 shadow-xl">
           <div className="card-body">
             <h2 className="text-center text-2xl font-bold">SingUp</h2>
@@ -138,7 +146,7 @@ const SignUp = () => {
               </div>
               {signInError}
               <input
-                className="btn w-full max-w-xs text-white"
+                className="btn bg-primary border-0 w-full max-w-xs text-white hover:bg-cyan-600"
                 type="submit"
                 value="Sign Up"
               />
@@ -153,7 +161,10 @@ const SignUp = () => {
               </p>
             </small>
             <div className="divider">OR</div>
-            <button onClick={() => signInWithGoogle()} className="btn btn-outline">
+            <button
+              onClick={() => signInWithGoogle()}
+              className="btn text-white border-0 bg-primary btn-outline hover:bg-cyan-600"
+            >
               Continue With Google
             </button>
           </div>
