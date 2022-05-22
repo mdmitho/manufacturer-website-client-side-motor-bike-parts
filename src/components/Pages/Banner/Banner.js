@@ -35,36 +35,21 @@ const Banner = () => {
           </div>
           <div class="carousel-inner relative w-full overflow-hidden">
             <div class="carousel-item active relative float-left w-full">
-              <img
-                src={slider1}
-                class="block w-full"
-                alt="..."
-              />
+              <img src={slider1} class="block w-full" alt="..." />
               <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h5 class="text-xl">Best Motor Bike Parts Four You</h5>
               </div>
             </div>
             <div class="carousel-item relative float-left w-full">
-              <img
-                src={slider2}
-                class="block w-full"
-                alt="..."
-              />
+              <img src={slider2} class="block w-full" alt="..." />
               <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h5 class="text-xl">Best Motor Bike Parts Four You</h5>
               </div>
             </div>
             <div class="carousel-item relative float-left w-full">
-              <img
-                src={slider3}
-                class="block w-full"
-                alt="..."
-              />
+              <img src={slider3} class="block w-full" alt="..." />
               <div class="carousel-caption hidden md:block absolute text-center">
-                <h5 class="text-xl">Third slide label</h5>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h5 class="text-xl">Best Motor Bike Parts Four You</h5>
               </div>
             </div>
           </div>
