@@ -1,9 +1,23 @@
 import React from 'react';
 
 const Navbar = () => {
+
+  const menuItem = (
+    <>
+    
+    
+    
+    
+    
+    
+    </>)
+
+
+
     return (
       <div>
-        <div class="navbar bg-primary">
+  
+        <div class="navbar max-w-7xl mx-auto ">
           <div class="navbar-start">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -56,7 +70,7 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-            <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+            <a class="btn btn-ghost normal-case text-xl">Motor Bike parts</a>
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal p-0">

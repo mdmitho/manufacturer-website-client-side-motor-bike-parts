@@ -8,6 +8,7 @@ import {
   QueryClient,
   QueryClientProvider,
 } from "react-query";
+import "tw-elements";
 
 
  // Create a client
