@@ -1,0 +1,56 @@
+[
+    {
+
+    "name": "Brandix Brake Kit",
+    "img": "https://themebing.com/wp/motormania/wp-content/uploads/2021/01/part-1.jpg",
+    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
+    "price": "3,021",
+    "minimumqQantity": 1000,
+    "availableQquantity":5000
+},
+    {
+
+    "name": "AGV Sports Modular",
+    "img": "https://themebing.com/wp/motormania/wp-content/uploads/2021/02/helmet-1.jpg",
+    "description": "Praesent mattis eget augue ac elementum. Maecenas vel ante ut enim mollis accumsan. Vestibulum vel eros at mi suscipit feugiat. Sed tortor purus, vulputate et eros a, rhoncus laoreet orci. Proin sapien neque, commodo at porta in, vehicula eu elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur porta vulputate augue, at sollicitudin nisl molestie eget.",
+    "price": "4,021",
+    "minimumqQantity": 1000,
+    "availableQquantity": 4000
+},
+    {
+ 
+    "name": "Brake Master CL Model",
+    "img": "https://global-fs.webike-cdn.net/catalogue/images/43868/CL-01_550x440_TL.jpg",
+    "description": "Cylinder diameter: 19mm.Lever ratio: 20mm.Color Body, Material: Aluminum BlackOnce you select the option, estimate delivery time will be displayed.Shipping date and Estimate time of arrival are not guarantee.Once your orders are placed, we will check the stock of manufacturer and send you the confirmed Shipping time via e-mail",
+    "price": "5,021",
+    "minimumqQantity": 1500,
+    "availableQquantity": 6000
+},
+    {
+
+    "name": "Motorcycle Looking glass",
+    "img": "https://static-01.daraz.com.bd/p/f0181de899faf8bb186bfe7e09a224b6.jpg",
+    "description": "Product details of Handlebar end Grip Side Mirror for Motorcycle Looking glass.This mirrors a specially designed mirror for looking back vehicles or stuffs without turning their head backward while riding motorcycle.Usually it’s attached at the handle of the motorcycle.",
+    "price": "1,021",
+    "minimumqQantity":1000,
+    "availableQquantity": 6000
+},
+    {
+ 
+    "name": "spark plug",
+    "img": "https://themebing.com/wp/motormania/wp-content/uploads/2021/01/part-1.jpg",
+    "description": "spark plug for APACHE RTR ALL MODEL long thread 2 head sparc plug Motorcycle 150/160CC.The three-stage ignition design increases the distance of flashover and increases the length of the arc. It is not easy to form carbon deposits after a long time of use, thereby achieving the effect of fuel saving.",
+    "price": "5,021",
+    "minimumqQantity": 1000,
+    "availableQquantity": 7000
+},
+    {
+     
+    "name": "ENUMA MVXZ2 CHAIN KIT",
+    "img": "https://cdn2.louis.de/dynamic/articles/o_resize,w_1800,h_1800,m_limit,c_fff/d3.2a.25.ENUMAKettensatz92017.JPG",
+    "description": "Sooner or later even the best, and best-loved, motorcycle needs a new chain and sprocket set. When that day comes, it would be a wise move to treat your machine to the compatible MVXZ-2 chain from Enuma, complete with front and rear sprockets. These kits are very rugged and also have an amazingly long life compared to others, even with tough treatment. What's more, the choice of chain colours means you can give your motorcycle a real eye-catching feature!.",
+    "price": "6,021",
+    "minimumqQantity": 1000,
+    "availableQquantity": 5000
+}
+]
