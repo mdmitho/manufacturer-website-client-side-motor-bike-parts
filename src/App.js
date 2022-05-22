@@ -10,12 +10,13 @@ import  AboutUs from './components/Pages/About-Us/AboutUs'
 import NotFound from './components/Pages/NotFound/NotFound';
 import SignUp from './components/Pages/SignUp/SignUp';
 import Blogs from './components/Pages/Blogs/Blogs';
-
+import  Footers from './Hooks/Footers';
 
 function App() {
   return (
     <div className=" ">
       <Navbar></Navbar>
+  
 
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -27,6 +28,9 @@ function App() {
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
+
+
+      <Footers></Footers>
       <Toaster />
     </div>
   );
