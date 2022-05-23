@@ -2,6 +2,7 @@ import React from 'react';
 import { Footer } from 'react-day-picker';
 import AboutUs from '../About-Us/AboutUs';
 import Banner from '../Banner/Banner';
+import BusinessTrust from '../BusinessTrust/BusinessTrust';
 import Parts from '../Parts/Parts';
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
           <Parts></Parts>
           <AboutUs></AboutUs>
         </div>
-    
+    <BusinessTrust></BusinessTrust>
 
       </div>
     );
