@@ -11,12 +11,12 @@ import NotFound from './components/Pages/NotFound/NotFound';
 import SignUp from './components/Pages/SignUp/SignUp';
 import Blogs from './components/Pages/Blogs/Blogs';
 import  Footers from './Hooks/Footers';
+import RequireAuth from './components/RequireAuth/RequireAuth';
 
 function App() {
   return (
     <div className=" ">
       <Navbar></Navbar>
-  
 
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
@@ -24,11 +24,17 @@ function App() {
         <Route path="/signUp" element={<SignUp />}></Route>
         <Route path="/aboutUS" element={<AboutUs></AboutUs>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
-        <Route path="/purchasePage" element={<PurchasePage></PurchasePage>}></Route>
+        <Route
+          path="/purchasePage/:id"
+          element={
+            <RequireAuth>
+              <PurchasePage></PurchasePage>
+            </RequireAuth>
+          }
+        ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
-
 
       <Footers></Footers>
       <Toaster />

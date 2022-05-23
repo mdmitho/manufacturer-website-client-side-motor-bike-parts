@@ -38,10 +38,10 @@ const SignUp = () => {
       );
     }
   
-    // if (token) {
-    //   console.log(user || gUser);
-    //   navigate("/appointment");
-    // }
+    if (user || gUser) {
+      console.log(user || gUser);
+      navigate("/");
+    }
     const onSubmit = async (data) => {
       console.log(data);
       await createUserWithEmailAndPassword(data.email, data.password);

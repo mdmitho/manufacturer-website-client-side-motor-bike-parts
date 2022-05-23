@@ -2,20 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Part = ({part}) => {
+const {name, img, price, description,minimumqQantity,availableQquantity,_id}=part
     return (
       <div>
-        <div class="card card-compact  bg-base-100 shadow-xl">
+        <div class=" card card-compact  bg-base-100 shadow-xl">
           <figure>
-            <img src={part.img} alt="Shoes" />
+            <img className="h-80" src={img} alt="Shoes" />
           </figure>
           <div class="card-body">
-            <h2 class="card-title">Name : {part.name}</h2>
-            <p>{part.description}</p>
-            <p>Price : $ {part.price}</p>
-            <p>Minimum order quantity : {part.minimumqQantity}</p>
-            <p>Available quantity : {part.availableQquantity}</p>
+            <h2 class="card-title">Name : {name}</h2>
+            <p>{description}</p>
+            <p>Price : $ {price}</p>
             <div class="card-actions justify-end">
-              <Link to="/purchasePage" class="btn btn-primary text-white">
+              <Link to={`/purchasePage/${_id}`} class="btn btn-primary text-white">
                 Buy Now
               </Link>
             </div>
