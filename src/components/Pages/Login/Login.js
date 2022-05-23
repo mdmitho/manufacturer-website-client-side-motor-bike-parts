@@ -5,6 +5,7 @@ import { useForm } from "react-hook-form";
 import Loading from '../../../Hooks/Loading'
 import logo from '../../../assets/login.png'
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 // import useToken from "../../Hooks/useToken";
 
 const Login = () => {
@@ -20,13 +21,13 @@ const Login = () => {
   let signInError;
   const navigate = useNavigate();
   const location = useLocation();
-
   let from = location.state?.from?.pathname || "/";
 
   useEffect(()=>{
 
     if (user|| gUser) {
       navigate(from, { replace: true });
+      toast.success("Successfully Login!");
     }
   },[user,gUser,from,navigate,])
 

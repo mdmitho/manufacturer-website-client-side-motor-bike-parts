@@ -38,7 +38,7 @@
     {
  
     "name": "spark plug",
-    "img": "https://themebing.com/wp/motormania/wp-content/uploads/2021/01/part-1.jpg",
+    "img": "https://st.depositphotos.com/1000128/3409/i/600/depositphotos_34099985-stock-photo-sparkplug.jpg",
     "description": "spark plug for APACHE RTR ALL MODEL long thread 2 head sparc plug Motorcycle 150/160CC.The three-stage ignition design increases the distance of flashover and increases the length of the arc. It is not easy to form carbon deposits after a long time of use, thereby achieving the effect of fuel saving.",
     "price": "5,021",
     "minimumqQantity": 1000,
@@ -52,5 +52,49 @@
     "price": "6,021",
     "minimumqQantity": 1000,
     "availableQquantity": 5000
+},
+
+{
+        
+    "name": "Engine-Cover",
+    "price":350,
+"minimumqQantity": 130,
+    "availableQquantity": 850,
+    "description": "Bike Engine Repair Services, Bike Engine Repair, Motorcycle Engine Repair, Motorcycle Engine Service,It's where power and style meet to ensure you take over the city ",
+    "img": "https://i.ibb.co/wRhGBN3/motorcycle-luxury-items-close-up-motorcycle-parts-2-1.jpg"
+},
+{
+   
+    "name": "Engine pype",
+    "description": "Honda Free Service Coupon. To keep your motor cycle better condition, Motor cycles requires periodical maintenance. And Warranty conditions also requires ..",
+    "price":350,
+"minimumqQantity": 150,
+    "availableQquantity": 1020,
+    "img": "https://i.ibb.co/G9rmtL3/motorcycle-luxury-items-close-up-motorcycle-parts-1-1-1.jpg"
+},
+{
+    
+    "name": "Bumper",
+    "description": "Custom Box - Offering Bumper Bike Crash Guard, Bumper Protector, Bolero Bumper, Bullet Bumper, Bumper Corner Protector, Scorpio Bumpe",
+    "price":350,
+"minimumqQantity": 130,
+    "availableQquantity": 750,
+    "img": "https://image.shutterstock.com/image-photo/cropped-view-technician-repair-motorcycle-600w-384400153.jpg"
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]

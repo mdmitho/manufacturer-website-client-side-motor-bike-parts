@@ -12,6 +12,7 @@ import SignUp from './components/Pages/SignUp/SignUp';
 import Blogs from './components/Pages/Blogs/Blogs';
 import  Footers from './Hooks/Footers';
 import RequireAuth from './components/RequireAuth/RequireAuth';
+import Services from './components/Pages/Services/Services';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/signUp" element={<SignUp />}></Route>
         <Route path="/aboutUS" element={<AboutUs></AboutUs>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/services" element={<Services></Services>}></Route>
         <Route
           path="/purchasePage/:id"
           element={
