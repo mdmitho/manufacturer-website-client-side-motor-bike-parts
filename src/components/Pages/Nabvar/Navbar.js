@@ -31,9 +31,9 @@ const Navbar = () => {
           Sign Out
         </button>
       ) : (
-        <NavLink to="/login" className="btn ">
-          login
-        </NavLink>
+        <li className="font-bold m-2">
+        <NavLink to="/login">Login</NavLink>
+      </li>
       )}
     </>
   );

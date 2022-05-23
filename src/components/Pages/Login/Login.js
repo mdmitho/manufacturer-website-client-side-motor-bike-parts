@@ -6,6 +6,7 @@ import Loading from '../../../Hooks/Loading'
 import logo from '../../../assets/login.png'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
+import googleLogo from '../../../assets/google logo.png'
 // import useToken from "../../Hooks/useToken";
 
 const Login = () => {
@@ -136,7 +137,10 @@ const Login = () => {
             onClick={() => signInWithGoogle()}
             className="btn text-white border-0 bg-primary btn-outline hover:bg-cyan-600"
           >
-            Continue With Google
+            Continue With Google{" "}
+            <span className=" ml-4">
+              <img src={googleLogo} alt="" />
+            </span>
           </button>
         </div>
       </div>
