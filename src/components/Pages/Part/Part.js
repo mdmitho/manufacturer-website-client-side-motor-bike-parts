@@ -13,7 +13,7 @@ const {name, img, price, description,minimumqQantity,availableQquantity,_id}=par
             <h2 class="card-title">Name : {name}</h2>
             <p>{description}</p>
             <p>Price : $ {price}</p>
-            <div class="card-actions justify-end">
+            <div class="card-actions justify-center">
               <Link to={`/purchasePage/${_id}`} class="btn btn-primary text-white">
                 Buy Now
               </Link>

@@ -13,6 +13,7 @@ import Blogs from './components/Pages/Blogs/Blogs';
 import  Footers from './Hooks/Footers';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import Services from './components/Pages/Services/Services';
+import Order from './components/Pages/Order/Order';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/signUp" element={<SignUp />}></Route>
         <Route path="/aboutUS" element={<AboutUs></AboutUs>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/order/:id" element={<Order></Order>}></Route>
         <Route path="/services" element={<Services></Services>}></Route>
         <Route
           path="/purchasePage/:id"
