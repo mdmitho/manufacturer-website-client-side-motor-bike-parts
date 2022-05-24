@@ -24,6 +24,9 @@ const Navbar = () => {
         <NavLink to="/contact">Contact</NavLink>
       </li>
       <li className="font-bold m-2">
+        <NavLink to="/dashboard">Dashboard</NavLink>
+      </li>
+      <li className="font-bold m-2">
         <NavLink to="/services">Service</NavLink>
       </li>
       {user ? (

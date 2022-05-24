@@ -14,6 +14,7 @@ import  Footers from './Hooks/Footers';
 import RequireAuth from './components/RequireAuth/RequireAuth';
 import Services from './components/Pages/Services/Services';
 import Order from './components/Pages/Order/Order';
+import Dashboard from './components/Pages/Dashboard/Dashboard';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           }
         ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
+        <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
 
