@@ -17,6 +17,7 @@ let from = location.state?.from?.pathname || "/services";
 
 const handleOrder = (event) => {
   event.preventDefault();
+  const img = parts.img;
   const orderQuantity=event.target.orderQuantity?.value
   console.log(orderQuantity)
   if (parts.minimumqQantity > orderQuantity) {
@@ -27,6 +28,7 @@ const handleOrder = (event) => {
 
   } else {
     const order = {
+      img:img,
       email: user.email,
       service: parts.name,
       id: id,
@@ -48,13 +50,13 @@ const handleOrder = (event) => {
       .then((data) => {
         console.log(data);
         if (data.insertedId) {
-          toast.success(`Your Order Completed to ${parts.name}`);
+          toast.success("Your Order Completed");
         }
-
+        navigate(from, { replace: true });
         event.target.reset();
       });
   }
-  navigate(from, { replace: true });
+  
 
 }
 
