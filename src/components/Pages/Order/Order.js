@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import useParts from '../../../Hooks/Partsjson';
 import { useAuthState,} from "react-firebase-hooks/auth";
 import auth from '../../../firebase.init'
@@ -10,6 +10,9 @@ const Order = () => {
     const [parts] = useParts(id);
   
 const [user] = useAuthState(auth)
+const navigate = useNavigate();
+const location = useLocation();
+let from = location.state?.from?.pathname || "/services";
 
 
 const handleOrder = (event) => {
@@ -17,7 +20,11 @@ const handleOrder = (event) => {
   const orderQuantity=event.target.orderQuantity?.value
   console.log(orderQuantity)
   if (parts.minimumqQantity > orderQuantity) {
-    toast.error(`please minimumquantity products order : ${parts.minimumqQantity}`);
+    toast.error(`Please Minimum products order : ${parts.minimumqQantity}`);
+  } else if (parts.availableQquantity < orderQuantity) {
+
+    toast.error(`Available Stock Products  : ${parts.availableQquantity}`);
+
   } else {
     const order = {
       email: user.email,
@@ -27,27 +34,27 @@ const handleOrder = (event) => {
       phone: event.target.phone?.value,
       orderQuantity: orderQuantity,
     };
-    
-      console.log(order);
-      fetch("http://localhost:5000/order", {
-        method: "POST",
-        headers: {
-          "content-type": "application/json",
-        },
 
-        body: JSON.stringify(order),
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          console.log(data);
-          if (data.insertedId) {
-            toast.success(`Your Order Completed to ${parts.name}`);
-          }
+    console.log(order);
+    fetch("http://localhost:5000/order", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
 
-          event.target.reset();
-        });
+      body: JSON.stringify(order),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data);
+        if (data.insertedId) {
+          toast.success(`Your Order Completed to ${parts.name}`);
+        }
+
+        event.target.reset();
+      });
   }
-
+  navigate(from, { replace: true });
 
 }
 
