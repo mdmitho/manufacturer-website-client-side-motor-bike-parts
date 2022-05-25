@@ -12,20 +12,40 @@ const [user] = useAuthState(auth)
 const img = user.photoURL
 
   return (
-    <div className="flex justify-center text-center">
+    <div className="flex justify-center m-10  text-center">
       <div className="">
         <div class="form-control">
           <label class="label">
-            <span class="label-text text-white">Your Email</span>
+            <span class="label-text ">Your location </span>
           </label>
           <input
             type="text"
-            placeholder="email"
-            value={user?.email}
+            placeholder="location "
+            name="location"
             class="input input-bordered"
             required
-            readOnly
           />
+        </div>
+        <div class="form-control">
+          <label class="label">
+            <span class="label-text ">Your Education</span>
+          </label>
+          <input
+            type="text"
+            placeholder="education"
+            name="education"
+            class="input input-bordered"
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label class="label">
+            <span class="label-text ">Social profile link</span>
+          </label>
+          <input type="text"
+          name='socialLink'
+          placeholder="Social link" class="input input-bordered" 
+          required />
         </div>
       </div>
       <div className="">
@@ -46,7 +66,7 @@ const img = user.photoURL
             )}
           </div>
         </div>
-        <div className="">
+        <div className="ml-5">
           <p>Name: {user.displayName}</p>
           <p>userId: {user.metadata?.createdAt}</p>
           <p>Email: {user.email}</p>

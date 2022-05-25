@@ -49,7 +49,7 @@ const handleOrder = (event) => {
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        if (data.insertedId) {
+        if (data.insertedId ) {
           toast.success("Your Order Completed");
         }
         navigate(from, { replace: true });
@@ -111,9 +111,7 @@ const handleOrder = (event) => {
                   </div>
                   <div class="form-control">
                     <label class="label">
-                      <span class="label-text text-white">
-                        Available Stock : {parts.availableQquantity}
-                      </span>
+                      <span class="label-text text-white">Order Quantity</span>
                     </label>
                     <input
                       type="number"
