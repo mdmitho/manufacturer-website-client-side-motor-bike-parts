@@ -1,100 +1,118 @@
 [
     {
+        "name": "Brandix Brake Kit",
+        "img": "https://themebing.com/wp/motormania/wp-content/uploads/2021/01/part-1.jpg",
+        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
+        "price": "3,021",
+        "minimumqQantity": 1000,
+        "availableQquantity": 5000
+    },
+    {
+        "name": "AGV Sports Modular",
+        "img": "https://themebing.com/wp/motormania/wp-content/uploads/2021/02/helmet-1.jpg",
+        "description": "Praesent mattis eget augue ac elementum. Maecenas vel ante ut enim mollis accumsan. Vestibulum vel eros at mi suscipit feugiat. Sed tortor purus, vulputate et eros a, rhoncus laoreet orci. Proin sapien neque, commodo at porta in, vehicula eu elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur porta vulputate augue, at sollicitudin nisl molestie eget.",
+        "price": "4,021",
+        "minimumqQantity": 1000,
+        "availableQquantity": 4000
+    },
+    {
+        "name": "Brake Master CL Model",
+        "img": "https://global-fs.webike-cdn.net/catalogue/images/43868/CL-01_550x440_TL.jpg",
+        "description": "Cylinder diameter: 19mm.Lever ratio: 20mm.Color Body, Material: Aluminum BlackOnce you select the option, estimate delivery time will be displayed.Shipping date and Estimate time of arrival are not guarantee.Once your orders are placed, we will check the stock of manufacturer and send you the confirmed Shipping time via e-mail",
+        "price": "5,021",
+        "minimumqQantity": 1500,
+        "availableQquantity": 6000
+    },
+    {
+        "name": "Motorcycle Looking glass",
+        "img": "https://static-01.daraz.com.bd/p/f0181de899faf8bb186bfe7e09a224b6.jpg",
+        "description": "Product details of Handlebar end Grip Side Mirror for Motorcycle Looking glass.This mirrors a specially designed mirror for looking back vehicles or stuffs without turning their head backward while riding motorcycle.Usually it’s attached at the handle of the motorcycle.",
+        "price": "1,021",
+        "minimumqQantity": 1000,
+        "availableQquantity": 6000
+    },
+    {
+        "name": "spark plug",
+        "img": "https://st.depositphotos.com/1000128/3409/i/600/depositphotos_34099985-stock-photo-sparkplug.jpg",
+        "description": "spark plug for APACHE RTR ALL MODEL long thread 2 head sparc plug Motorcycle 150/160CC.The three-stage ignition design increases the distance of flashover and increases the length of the arc. It is not easy to form carbon deposits after a long time of use, thereby achieving the effect of fuel saving.",
+        "price": "5,021",
+        "minimumqQantity": 1000,
+        "availableQquantity": 7000
+    },
+    {
+        "name": "ENUMA MVXZ2 CHAIN KIT",
+        "img": "https://cdn2.louis.de/dynamic/articles/o_resize,w_1800,h_1800,m_limit,c_fff/d3.2a.25.ENUMAKettensatz92017.JPG",
+        "description": "Sooner or later even the best, and best-loved, motorcycle needs a new chain and sprocket set. When that day comes, it would be a wise move to treat your machine to the compatible MVXZ-2 chain from Enuma, complete with front and rear sprockets. These kits are very rugged and also have an amazingly long life compared to others, even with tough treatment. What's more, the choice of chain colours means you can give your motorcycle a real eye-catching feature!.",
+        "price": "6,021",
+        "minimumqQantity": 1000,
+        "availableQquantity": 5000
+    },
+    {
+        "name": "Engine-Cover",
+        "price": 350,
+        "minimumqQantity": 130,
+        "availableQquantity": 850,
+        "description": "Bike Engine Repair Services, Bike Engine Repair, Motorcycle Engine Repair, Motorcycle Engine Service,It's where power and style meet to ensure you take over the city ",
+        "img": "https://i.ibb.co/wRhGBN3/motorcycle-luxury-items-close-up-motorcycle-parts-2-1.jpg"
+    },
+    {
+        "name": "Engine pype",
+        "description": "Honda Free Service Coupon. To keep your motor cycle better condition, Motor cycles requires periodical maintenance. And Warranty conditions also requires ..",
+        "price": 350,
+        "minimumqQantity": 150,
+        "availableQquantity": 1020,
+        "img": "https://i.ibb.co/G9rmtL3/motorcycle-luxury-items-close-up-motorcycle-parts-1-1-1.jpg"
+    },
+    {
+        "name": "Bumper",
+        "description": "Custom Box - Offering Bumper Bike Crash Guard, Bumper Protector, Bolero Bumper, Bullet Bumper, Bumper Corner Protector, Scorpio Bumpe",
+        "price": 350,
+        "minimumqQantity": 130,
+        "availableQquantity": 750,
+        "img": "https://image.shutterstock.com/image-photo/cropped-view-technician-repair-motorcycle-600w-384400153.jpg"
+    },
 
-    "name": "Brandix Brake Kit",
-    "img": "https://themebing.com/wp/motormania/wp-content/uploads/2021/01/part-1.jpg",
-    "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t anything embarrassing hidden in the middle of text.",
-    "price": "3,021",
-    "minimumqQantity": 1000,
-    "availableQquantity":5000
-},
-    {
 
-    "name": "AGV Sports Modular",
-    "img": "https://themebing.com/wp/motormania/wp-content/uploads/2021/02/helmet-1.jpg",
-    "description": "Praesent mattis eget augue ac elementum. Maecenas vel ante ut enim mollis accumsan. Vestibulum vel eros at mi suscipit feugiat. Sed tortor purus, vulputate et eros a, rhoncus laoreet orci. Proin sapien neque, commodo at porta in, vehicula eu elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Curabitur porta vulputate augue, at sollicitudin nisl molestie eget.",
-    "price": "4,021",
-    "minimumqQantity": 1000,
-    "availableQquantity": 4000
-},
-    {
- 
-    "name": "Brake Master CL Model",
-    "img": "https://global-fs.webike-cdn.net/catalogue/images/43868/CL-01_550x440_TL.jpg",
-    "description": "Cylinder diameter: 19mm.Lever ratio: 20mm.Color Body, Material: Aluminum BlackOnce you select the option, estimate delivery time will be displayed.Shipping date and Estimate time of arrival are not guarantee.Once your orders are placed, we will check the stock of manufacturer and send you the confirmed Shipping time via e-mail",
-    "price": "5,021",
-    "minimumqQantity": 1500,
-    "availableQquantity": 6000
-},
-    {
-
-    "name": "Motorcycle Looking glass",
-    "img": "https://static-01.daraz.com.bd/p/f0181de899faf8bb186bfe7e09a224b6.jpg",
-    "description": "Product details of Handlebar end Grip Side Mirror for Motorcycle Looking glass.This mirrors a specially designed mirror for looking back vehicles or stuffs without turning their head backward while riding motorcycle.Usually it’s attached at the handle of the motorcycle.",
-    "price": "1,021",
-    "minimumqQantity":1000,
-    "availableQquantity": 6000
-},
-    {
- 
-    "name": "spark plug",
-    "img": "https://st.depositphotos.com/1000128/3409/i/600/depositphotos_34099985-stock-photo-sparkplug.jpg",
-    "description": "spark plug for APACHE RTR ALL MODEL long thread 2 head sparc plug Motorcycle 150/160CC.The three-stage ignition design increases the distance of flashover and increases the length of the arc. It is not easy to form carbon deposits after a long time of use, thereby achieving the effect of fuel saving.",
-    "price": "5,021",
-    "minimumqQantity": 1000,
-    "availableQquantity": 7000
-},
-    {
-     
-    "name": "ENUMA MVXZ2 CHAIN KIT",
-    "img": "https://cdn2.louis.de/dynamic/articles/o_resize,w_1800,h_1800,m_limit,c_fff/d3.2a.25.ENUMAKettensatz92017.JPG",
-    "description": "Sooner or later even the best, and best-loved, motorcycle needs a new chain and sprocket set. When that day comes, it would be a wise move to treat your machine to the compatible MVXZ-2 chain from Enuma, complete with front and rear sprockets. These kits are very rugged and also have an amazingly long life compared to others, even with tough treatment. What's more, the choice of chain colours means you can give your motorcycle a real eye-catching feature!.",
-    "price": "6,021",
-    "minimumqQantity": 1000,
-    "availableQquantity": 5000
-},
-
-{
-        
-    "name": "Engine-Cover",
-    "price":350,
-"minimumqQantity": 130,
-    "availableQquantity": 850,
-    "description": "Bike Engine Repair Services, Bike Engine Repair, Motorcycle Engine Repair, Motorcycle Engine Service,It's where power and style meet to ensure you take over the city ",
-    "img": "https://i.ibb.co/wRhGBN3/motorcycle-luxury-items-close-up-motorcycle-parts-2-1.jpg"
-},
-{
    
-    "name": "Engine pype",
-    "description": "Honda Free Service Coupon. To keep your motor cycle better condition, Motor cycles requires periodical maintenance. And Warranty conditions also requires ..",
-    "price":350,
-"minimumqQantity": 150,
-    "availableQquantity": 1020,
-    "img": "https://i.ibb.co/G9rmtL3/motorcycle-luxury-items-close-up-motorcycle-parts-1-1-1.jpg"
-},
-{
+
     
-    "name": "Bumper",
-    "description": "Custom Box - Offering Bumper Bike Crash Guard, Bumper Protector, Bolero Bumper, Bullet Bumper, Bumper Corner Protector, Scorpio Bumpe",
-    "price":350,
-"minimumqQantity": 130,
-    "availableQquantity": 750,
-    "img": "https://image.shutterstock.com/image-photo/cropped-view-technician-repair-motorcycle-600w-384400153.jpg"
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    {
+        
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVRgEbUUPxuyxnFw1ZPt9_LVc0LYE8uFNhA&usqp=CAU",
+        "name": "Sergio M.",
+        "review": "I didn't think I'd be using the touchscreen as much as I thought. It is super smooth like you'd expect a high end tablet."
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3VUC8GpmFONZ1zHeX4inKMpyNNA7NUVNQw&usqp=CAU",
+        "name": "Daniel G. Alexis",
+        "review": "Coming from a traditional laptop, this is an amazing option if you want a truly versatile and convenient computer. I wouldn't expect to play games at the highest settings but for it's price point it makes sense."
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwRgJuzl57CYntDcZu_Sb02hzAiU2NowGayQ&usqp=CAU",
+        "name": "yaniv.shams",
+        "review": "Good for daily tasks like web browsing and office work. not for gaming. screen is ok the 1080 resolution is not the best. size is great and keyboard is great. touch screed is a fun extra. not worth more then 600$"
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYoj0KWJI9-K7Ze2K8OQ9MZzoHdEzNLUtGRA&usqp=CAU",
+        "name": "Walter F Rodriguez",
+        "review": "The processor is fantastic and can handle anything I throw at it, including some light gaming. I'm a fan of the design and, while it's a little heavier than typical ultrabooks, it's not a huge weight as I take it with me through my day."
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVlfiXAYSvqFFvAdSbd3FrFbq1NzWFqLqr3A&usqp=CAU",
+        "name": "Zention",
+        "review": "Una cosa que no me ha gustado es la disposición del botón de encendido/apagado. Está en el lateral derecho y en ocaciónes lo presiono sin querer al momento de moverla o voltearla a modo tableta; no es nada grave pero estaría mejor integrado junto al teclado, o incluso en el sensor de huella."
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2ZCzMFzAZPtDnzHX1Qj-kuHNWHSQ8AbhP1Q&usqp=CAU",
+        "name": "Claudio Monzoni",
+        "review": "La laptop es buena por el precio, me gusto que se siente bien construida aunque sea de plástico, la pantalla no tiene buenos colores, tienden a verse deslavados.  Un error que no me gusto es que los controladores de video no estan optimizados y hay glitches en la pantalla, supongo es cuestión de tiempo que los arreglen"
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_lB0zHrt60hoQLrfN_6yRD38TDrxrhgsw1Q&usqp=CAU",
+        "name": "liz",
+        "review": "We bought this laptop as a Christmas gift for my daughter. We were very pleased with the screen quality and touch screen. Also, what you get with this laptop is extraordinary. You can’t beat the price for what you’re getting. I would definitely buy another one. Kind of wish I needed another one"
+    }
 ]
+
+

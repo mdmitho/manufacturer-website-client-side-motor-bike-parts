@@ -21,7 +21,7 @@ const MyOrder = () => {
 
         <div class="m-16 overflow-x-auto">
           <table class="table w-full">
-            <thead>
+            <thead className="">
               <tr>
                 <th></th>
                 <th>Avatar </th>
