@@ -21,6 +21,7 @@ import MyProfile from './components/Pages/Dashboard/MyProfile/MyProfile';
 import MakeAdmin from './components/Pages/Dashboard/MakeAdmin/MakeAdmin';
 import AllOrder from './components/Pages/Dashboard/AllOrder/AllOrder';
 import ManageProducts from './components/Pages/Dashboard/ManageProducts/ManageProducts';
+import AddProduct from './components/Pages/Dashboard/AddProduct/AddProduct';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
           <Route path="/dashboard/allOrder" element={<AllOrder></AllOrder>}></Route>
           <Route path="/dashboard/makeAdmin" element={<MakeAdmin></MakeAdmin>}></Route>
           <Route path="/dashboard/manageProducts" element={<ManageProducts></ManageProducts>}></Route>
+          <Route path="/dashboard/AddProduct" element={<AddProduct></AddProduct>}></Route>
         </Route>
 
         <Route path="*" element={<NotFound></NotFound>}></Route>

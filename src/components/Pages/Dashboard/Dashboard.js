@@ -40,7 +40,7 @@ const [admin] =useAdmin(user)
                   <Link to="/dashboard/allOrder">All Order</Link>
                 </li>
                 <li>
-                  <Link to="/dashboard/addItem">Add Product</Link>
+                  <Link to="/dashboard/addProduct">Add Product</Link>
                 </li>
                 <li>
                   <Link to="/dashboard/manageProducts">Manage Product</Link>
