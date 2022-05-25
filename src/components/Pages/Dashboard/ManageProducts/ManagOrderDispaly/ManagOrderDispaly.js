@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ManagOrderDispaly = ({ part, DeleteBtn }) => {
-  const { name, img, price, description, minimumqQantity, availableQquantity, _id } = part;
+  const { name, img, price, description, _id } = part;
   return (
     <div>
       <div>

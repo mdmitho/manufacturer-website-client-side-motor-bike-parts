@@ -33,20 +33,6 @@ const DeleteBtn = (id) => {
 
 
 
-    // const {
-    //     data: parts,
-    //     isLoading,
-    //     refetch,
-    //   } = useQuery(["parts"], () => fetch("http://localhost:5000/parts").then(
-    //     (res) => res.json()))
-      
-    //   if(isLoading){
-    //     return <Loading />;
-    //   }
-
-
-
-
 
     return (
       <div className="container mx-auto">
