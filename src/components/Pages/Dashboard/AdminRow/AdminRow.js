@@ -1,7 +1,7 @@
 import React from 'react';
 import toast from 'react-hot-toast';
 
-const AdminRow = ({ user, refetch }) => {
+const AdminRow = ({ user, refetch,index }) => {
   const { email, role } = user;
   const makeAdmin = () => {
     fetch(`http://localhost:5000/admin/${email}`, {
@@ -21,13 +21,13 @@ const AdminRow = ({ user, refetch }) => {
           refetch();
           toast.success(`Successfully made an admin`);
         }
-      });
+      }); 
   };
 
   return (
-    <div>
+ 
       <tr>
-        <th>1</th>
+        <th>{index +1}</th>
         <td>{email}</td>
         <td>
           {role !== "admin" && (
@@ -40,7 +40,6 @@ const AdminRow = ({ user, refetch }) => {
           <button class="btn btn-xs">Remove User</button>
         </td>
       </tr>
-    </div>
   );
 };
 
