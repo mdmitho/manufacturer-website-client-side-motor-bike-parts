@@ -39,6 +39,9 @@ function App() {
         ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/dashboard" element={<Dashboard></Dashboard>}></Route>
+        <Route path="/myOrder" element={<Dashboard></Dashboard>}></Route>
+        <Route path="/addReview" element={<Dashboard></Dashboard>}></Route>
+        <Route path="/myProfile" element={<Dashboard></Dashboard>}></Route>
         <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
 
