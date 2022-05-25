@@ -18,6 +18,9 @@ import Dashboard from './components/Pages/Dashboard/Dashboard';
 import MyOrder from "./components/Pages/Dashboard/MyOrder/MyOrder";
 import AddReview from './components/Pages/Dashboard/AddReview/AddReview';
 import MyProfile from './components/Pages/Dashboard/MyProfile/MyProfile';
+import MakeAdmin from './components/Pages/Dashboard/MakeAdmin/MakeAdmin';
+import AllOrder from './components/Pages/Dashboard/AllOrder/AllOrder';
+import ManageProducts from './components/Pages/Dashboard/ManageProducts/ManageProducts';
 
 function App() {
   return (
@@ -53,6 +56,9 @@ function App() {
           <Route path="myOrder" element={<MyOrder></MyOrder>}></Route>
           <Route path="addReview" element={<AddReview></AddReview>}></Route>
           <Route path="myProfile" element={<MyProfile></MyProfile>}></Route>
+          <Route path="/dashboard/allOrder" element={<AllOrder></AllOrder>}></Route>
+          <Route path="/dashboard/makeAdmin" element={<MakeAdmin></MakeAdmin>}></Route>
+          <Route path="/dashboard/manageProducts" element={<ManageProducts></ManageProducts>}></Route>
         </Route>
 
         <Route path="*" element={<NotFound></NotFound>}></Route>
