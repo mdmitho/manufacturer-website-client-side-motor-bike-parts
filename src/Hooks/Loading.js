@@ -2,7 +2,7 @@ import React from "react";
 
 const Loading = () => {
   return (
-    <div class="text-center mt-5">
+    <div class="text-center mt-5 mb-5">
       <svg
         role="status"
         class="inline w-8 h-8 mr-2 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600"
