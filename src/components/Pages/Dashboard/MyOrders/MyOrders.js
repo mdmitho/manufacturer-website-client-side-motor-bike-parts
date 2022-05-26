@@ -1,15 +1,13 @@
-import React from 'react';
-
-
+import React from "react";
 
 const MyOrders = ({ order, index, DeleteBtn }) => {
-  const { service, img, email, orderQuantity ,_id} = order;
+  const { service, img, email, orderQuantity, _id } = order;
   return (
     <tr>
       <th>{index + 1}</th>
       <td>
-        <div class="avatar">
-          <div class="w-16 rounded">
+        <div className="avatar">
+          <div className="w-16 rounded">
             <img src={img} alt={service} />
           </div>
         </div>
@@ -18,7 +16,11 @@ const MyOrders = ({ order, index, DeleteBtn }) => {
       <td>{email}</td>
       <td>{orderQuantity}</td>
       <td>
-        <label onClick={() => DeleteBtn(_id)} for="my-modal-6" class="btn btn-xs btn-error">
+        <label
+          onClick={() => DeleteBtn(_id)}
+          for="my-modal-6"
+          className="btn btn-xs btn-error"
+        >
           Delete
         </label>
       </td>

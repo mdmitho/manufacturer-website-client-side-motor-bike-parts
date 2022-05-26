@@ -5,9 +5,9 @@ const useToken = (user) => {
   useEffect(() => {
     const email = user?.user?.email;
     const currentUser = { email: email };
-console.log('user inside useToken', user)
+    console.log("user inside useToken", user);
     if (email) {
-      fetch(`http://localhost:5000/user/${email}`, {
+      fetch(`https://arcane-bastion-67120.herokuapp.com/user/${email}`, {
         method: "PUT",
         headers: {
           "content-type": "application/json",
@@ -26,4 +26,3 @@ console.log('user inside useToken', user)
   return [token];
 };
 export default useToken;
- 

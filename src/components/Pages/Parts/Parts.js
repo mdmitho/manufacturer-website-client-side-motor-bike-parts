@@ -1,31 +1,31 @@
-import React from 'react';
+import React from "react";
 import { useQuery } from "react-query";
-import { Link } from 'react-router-dom';
-import Loading from '../../../Hooks/Loading';
-import Part from '../Part/Part';
+import { Link } from "react-router-dom";
+import Loading from "../../../Hooks/Loading";
+import Part from "../Part/Part";
 
 const Parts = () => {
- 
-const {
-  data: parts,
-  isLoading,
-  refetch,
-} = useQuery(["parts"], () => fetch("http://localhost:5000/parts").then(
-  (res) => res.json()))
+  const {
+    data: parts,
+    isLoading,
+    refetch,
+  } = useQuery(["parts"], () =>
+    fetch("https://arcane-bastion-67120.herokuapp.com/parts").then((res) => res.json())
+  );
 
-if(isLoading){
-  return <Loading/>
-}
+  if (isLoading) {
+    return <Loading />;
+  }
   return (
     <div className="">
       <h1 className="text-2xl font-bold text-center my-16  text-primary">Bike parts</h1>
-      <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 m-5 justify-center">
+      <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 m-5 justify-center">
         {parts.slice(0, 3).map((part) => (
           <Part key={part._id} part={part}></Part>
         ))}
       </div>
       <div className="text-center my-10 ">
-        <Link class="btn btn-primary text-white " to="/services">
+        <Link className="btn btn-primary text-white " to="/services">
           All Parts
         </Link>
       </div>
