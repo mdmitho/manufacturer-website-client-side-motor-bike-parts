@@ -66,7 +66,7 @@ const AddReview = () => {
                     class="textarea textarea-accent"
                     name="review"
                     placeholder="review"
-                    requiredreview
+                    required
                   ></textarea>
                 </div>
 
