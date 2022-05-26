@@ -35,8 +35,8 @@ const AddProduct = () => {
             }
             Navigate("/services");
             event.target.reset();
+
           });
-     
     }
 
 

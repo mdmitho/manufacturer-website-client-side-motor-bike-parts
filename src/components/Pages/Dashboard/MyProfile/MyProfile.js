@@ -9,7 +9,7 @@ const MyProfile = () => {
 
   
 const [user] = useAuthState(auth)
-const img = user.photoURL
+const img = user?.photoURL
 
   return (
     <div className="flex justify-center m-10  text-center">
