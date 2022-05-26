@@ -13,7 +13,7 @@ const [admin] =useAdmin(user)
       <div className="drawer drawer-mobile">
         <input id="dashboard-sidebar" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content rounded">
-          <h1 className="text-3xl font-bold text-purple-500">Welcome to your Dashboard</h1>
+          <h1 className="text-3xl font-bold text-center text-primary m-5" >Welcome to your Dashboard</h1>
           <Outlet />
           {/* <!-- Page content here --> */}
         </div>
