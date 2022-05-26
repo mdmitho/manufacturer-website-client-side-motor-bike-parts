@@ -16,9 +16,44 @@ const MyPortfolio = () => {
           </div>
         </div>
 
-    <div className="">
-        <Progress></Progress>
-    </div>
+        <div className="grid justify-center lg:grid-cols-2 gap-10 sm:grid-cols-1 mt-10 mx-auto">
+          <div className="">
+            <h1 className="text-5xl mt-16 font-bold text-primary ">My previous Work</h1>
+            <h1 className="text-2xl mt-5 text-secondary">
+              live Website Link :{" "}
+              <a
+                className="text-blue-500"
+                href=" https://car-warehouse-2291c.web.app/home"
+                target="_blank"
+              >
+                see website 1
+              </a>
+            </h1>
+            <h1 className="text-2xl mt-5 text-secondary">
+              live Website Link :{" "}
+              <a
+                target="_blank"
+                className="text-blue-500"
+                href=" https://dentist-care-c901c.web.app/"
+              >
+                see website 2
+              </a>
+            </h1>
+            <h1 className="text-2xl mt-5 text-secondary">
+              live Website Link :{" "}
+              <a
+                target="_blank"
+                className="text-blue-500"
+                href=" https://serene-halva-3ed972.netlify.app/home"
+              >
+                see website 3
+              </a>
+            </h1>
+          </div>
+          <div className="">
+            <Progress></Progress>
+          </div>
+        </div>
       </div>
     );
 };
