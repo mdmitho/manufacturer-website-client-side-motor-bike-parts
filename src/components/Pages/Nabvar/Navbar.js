@@ -77,7 +77,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className="">
-            <img className="w-13 h-12" src={logo} alt="" />
+            <img className="w-13 h-12 md:w-0 md:h-0" src={logo} alt="" />
           </div>
           <NavLink to="/" className="btn btn-ghost normal-case font-bold text-xl">
             Motor Bike Parts
