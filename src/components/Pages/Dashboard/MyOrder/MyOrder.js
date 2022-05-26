@@ -1,20 +1,9 @@
 import React from 'react';
-import { useQuery } from 'react-query';
-import Loading from '../../../../Hooks/Loading'
+
+import Order from '../../../../Hooks/Order';
 import MyOrders from '../MyOrders/MyOrders';
 const MyOrder = () => {
-    const {
-      data: orders,
-      isLoading,
-      refetch,
-    } = useQuery(["order"], () =>
-      fetch("http://localhost:5000/order").then((res) => res.json())
-    );
-   
-      if(isLoading){
-        return <Loading />;
-      }
-      
+  const [orders] = Order([])
     return (
       <div className="container mx-auto">
         <h1>My Order : {orders.length}</h1>
@@ -36,7 +25,7 @@ const MyOrder = () => {
                 <MyOrders
                   key={order._id}
                   order={order}
-                  refetch={refetch}
+                  // refetch={refetch}
                   index={index}
                 ></MyOrders>
               ))}

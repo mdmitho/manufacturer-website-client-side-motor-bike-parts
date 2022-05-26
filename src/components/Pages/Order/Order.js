@@ -5,14 +5,17 @@ import { useAuthState,} from "react-firebase-hooks/auth";
 import auth from '../../../firebase.init'
 import toast from 'react-hot-toast';
 
+
 const Order = () => {
     const {id} = useParams()
     const [parts] = useParts(id);
-  
+
 const [user] = useAuthState(auth)
 const navigate = useNavigate();
 const location = useLocation();
 let from = location.state?.from?.pathname || "/services";
+
+
 
 
 const handleOrder = (event) => {
@@ -59,6 +62,10 @@ const handleOrder = (event) => {
   
 
 }
+
+
+
+
 
     return (
       <form onSubmit={handleOrder}>
