@@ -7,7 +7,7 @@ import logo from '../../../assets/login.png'
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
 import googleLogo from '../../../assets/google logo.png'
-// import useToken from "../../Hooks/useToken";
+import useToken from "../../../Hooks/useToken";
 
 const Login = () => {
   const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -18,19 +18,15 @@ const Login = () => {
   } = useForm();
   const [signInWithEmailAndPassword, user, loading, error] =
     useSignInWithEmailAndPassword(auth);
-  // const [token] = useToken(user|| gUser)
+  const [token] = useToken(user|| gUser)
   let signInError;
   const navigate = useNavigate();
   const location = useLocation();
-  let from = location.state?.from?.pathname || "/";
+  let from = location.state?.from?.pathname || "/home";
 
   useEffect(()=>{
 
-    if (user|| gUser) {
-      navigate(from, { replace: true });
-      toast.success("Successfully Login!");
-    }
-  },[user,gUser,from,navigate,])
+  },[user,gUser,from,navigate,token])
 
   if (loading || gLoading) {
     return <Loading></Loading>;
@@ -40,6 +36,10 @@ const Login = () => {
     signInError = <p className="text-red-500">{error?.message || gError?.message}</p>;
   }
 
+  if (token) {
+    navigate("/dashboard");
+    toast.success("Successfully Login!");
+  }
   const onSubmit = (data) => {
     // console.log(data);
     signInWithEmailAndPassword(data.email, data.password);

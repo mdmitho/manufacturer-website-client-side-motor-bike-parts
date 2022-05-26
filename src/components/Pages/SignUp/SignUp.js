@@ -11,6 +11,7 @@ import Loading from '../../../Hooks/Loading'
 import logo from "../../../assets/login.png";
 import toast from 'react-hot-toast';
 import googleLogo from '../../../assets/google logo.png'
+import useToken from '../../../Hooks/useToken';
 const SignUp = () => {
 
     const [signInWithGoogle, gUser, gLoading, gError] = useSignInWithGoogle(auth);
@@ -22,11 +23,11 @@ const SignUp = () => {
     const [createUserWithEmailAndPassword, user, loading, error] =
       useCreateUserWithEmailAndPassword(auth);
     const [updateProfile, updating, updateError] = useUpdateProfile(auth);
-    // const [token] = useToken(user || gUser)
+    const [token] = useToken(user || gUser)
   
     const navigate = useNavigate();
     const location = useLocation();
-    let from = location.state?.from?.pathname || "/";
+    let from = location.state?.from?.pathname || "/dashboard";
   
     let signInError;
   
@@ -42,9 +43,10 @@ const SignUp = () => {
       );
     }
   
-    if (user || gUser) {
-        navigate(from, { replace: true });
-        toast.success("Successfully Login!");
+    if (token) {
+  
+      navigate(from, { replace: true });
+      toast.success("Successfully Login!");
     }
     const onSubmit = async (data) => {
       console.log(data);
