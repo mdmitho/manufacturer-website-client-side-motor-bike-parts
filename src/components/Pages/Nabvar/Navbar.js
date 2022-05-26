@@ -33,6 +33,9 @@ const Navbar = () => {
       <li className="font-bold m-2">
         <NavLink to="/blogs">Blog</NavLink>
       </li>
+      <li className="font-bold m-2">
+        <NavLink to="/myPortfolio">MyPortfolio</NavLink>
+      </li>
 
       {user ? (
         <button onClick={logout} className="font-bold m-2">
